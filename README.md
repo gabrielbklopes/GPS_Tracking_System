@@ -3,7 +3,7 @@
 The current repository represents my Capstone project developed to university in order to accomplish a Automotive Tracking System for a car fleet used by the local police in Espírito Santo, Brazil. 
 
 The explanation on the files are as follows:
-- GPSKalmanFilter: This is the developed library for this project. It can be embedded in many devices used in Arduino enviroment. Later it is interesting to adapt it for several diferent MCU architecture. The link to the correct repository is: https://github.com/gabrielbklopes/GPSKalmanFilter
+- GPSKalmanFilter: This is the developed library for this project. It can be embedded in many devices used in Arduino enviroment. Later it is interesting to adapt it for several diferent MCU architecture. The link to the repository itself is: https://github.com/gabrielbklopes/GPSKalmanFilter
 - HMC5883L is the library to access the magnetometer. Some changes were applied.
 - Haversine is the library that calculates the distance between two points in the globe and the bearing angle.
 - MPU6050 access the sensor that incorporates a gyroscope and a accelerometer. Several changes had to be applied in order to math the current project.
