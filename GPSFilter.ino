@@ -366,16 +366,16 @@ void setup() {
 }
 
 void loop() {
+// Uncomment this part to execute the LoRa communication
+/*    os_runloop_once();
+    if(millis() - previousTimeLoRa > 5000){
+      Serial.println("Enviei aqui");
+      do_send(&sendjob);
+      Serial.println("Sending...");
+      previousTimeLoRa = millis();
+    }
+*/
   
-//    os_runloop_once();
-//    if(millis() - previousTimeLoRa > 5000){
-//      Serial.println("Enviei aqui");
-//      do_send(&sendjob);
-//      Serial.println("Sending...");
-//      previousTimeLoRa = millis();
-//    }
-
-    
     if(!first){
 
        // If data ready bit set, all data registers have new data
