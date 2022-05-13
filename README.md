@@ -13,7 +13,7 @@ The explanation on the files are as follows:
 - PathSimulationGPS.ipynb simulates the car path using trigonometric functions for the position, velocity and acceleration. This is a good kickoff point to start understanding the functioning of the system itself.
 - calibration_mag.ino is used to calibrate the magnetometer against Hard and Soft Iron interference.
 
-I case of futher questions about this project fill free to reach me out on LinkedIn: https://www.linkedin.com/in/gabrielbklopes/
+In case of futher questions about this project fill free to reach me out on LinkedIn: https://www.linkedin.com/in/gabrielbklopes/
 
 Notice that this project doesn't work perfectly and I stoped it when the system presented a ok behavior. Many improviments are necessary but this is already a good start.
 
