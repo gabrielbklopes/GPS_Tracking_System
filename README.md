@@ -11,6 +11,7 @@ The explanation on the files are as follows:
 - GPSFilter.ino is the program itself. It covers the LoRa communication, the gps aquisition, the sensors first calibration and applies the Madgwick fuction to calculate the system attitude. In the future this function can migrate to a library or even to the Kalman Filter library.
 - KFSimulationGPS.ipynb is a Google Colab notebook that covers the Kalman Filter applied in datasets obtained from the embedded system data.
 - PathSimulationGPS.ipynb simulates the car path using trigonometric functions for the position, velocity and acceleration. This is a good kickoff point to start understanding the functioning of the system itself.
+- calibration_mag.ino is used to calibrate the magnetometer against Hard and Soft Iron interference.
 
 I case of futher questions about this project fill free to reach me out on LinkedIn: https://www.linkedin.com/in/gabrielbklopes/
 
