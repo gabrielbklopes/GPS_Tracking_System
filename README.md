@@ -13,6 +13,16 @@ The explanation on the files are as follows:
 - PathSimulationGPS.ipynb simulates the car path using trigonometric functions for the position, velocity and acceleration. This is a good kickoff point to start understanding the functioning of the system itself.
 - calibration_mag.ino is used to calibrate the magnetometer against Hard and Soft Iron interference.
 
+The image bellow shows the results for the filter considering the mathematical calculation of the bearing angle. 
+![gps_bearing_all](https://user-images.githubusercontent.com/30734909/168810791-bddce8c2-160b-4c14-9955-28e75f3ca5e3.png)
+
+Using the bearing angle provided by the magnetometer an error occours due to the electromagnetic interference from the car.
+![gps_final_nolost_meters](https://user-images.githubusercontent.com/30734909/168812057-8ed65f9a-d6e1-419c-aa1a-ae3e2fa25be8.png)
+
+![gps_final_nolost_errN](https://user-images.githubusercontent.com/30734909/168812476-e1e4e3a4-e888-4da8-a20f-d027db7fc16d.png)
+![gps_final_nolost_errE](https://user-images.githubusercontent.com/30734909/168812514-8af78b88-07ac-40d7-954f-8beb5bd59475.png)
+
+
 In case of futher questions about this project fill free to reach me out on LinkedIn: https://www.linkedin.com/in/gabrielbklopes/
 
 Notice that this project doesn't work perfectly and I stoped it when the system presented a ok behavior. Many improviments are necessary but this is already a good start.
