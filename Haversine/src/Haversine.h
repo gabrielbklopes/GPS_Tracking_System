@@ -1,6 +1,5 @@
-/* Matheau Goonan
-   Senior Project 2018
-   Rover
+/* Created by Matheau Goonan
+   Modified by Gabriel Lopes to fit the project
    Reference: http://forum.arduino.cc/index.php?topic=45760.0
 */
 
