@@ -1,3 +1,9 @@
+/* 
+ * Main program - GPS Tracking System.
+ * Created by Gabriel Lopes.
+ * https://www.linkedin.com/in/gabrielbklopes/
+ */
+
 #include <TinyGPS++.h>
 
 #include <lmic.h>
