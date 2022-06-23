@@ -7,7 +7,7 @@ The explanation on the files are as follows:
 - HMC5883L is the library to access the magnetometer. Some changes were applied.
 - Haversine is the library that calculates the distance between two points in the globe and the bearing angle.
 - MPU6050 access the sensor that incorporates a gyroscope and a accelerometer. Several changes had to be applied in order to math the current project.
-- arduino-lmic-master is responsible for the LoRa communication. Be aware this is a highly complicated library and can be trick to understand and work with. Also it was not exactly made for ESP32 MCU. Good luck in case you need to apply changes inside.
+- arduino-lmic-master is responsible for the LoRa communication. Be aware this is a highly complicated library and can be trick to understand and work with. Also it was not exactly made for ESP32 MCU. The library was not developed by me, the credit for the work belongs to the original developer. But I had to execute some chances inside the code. 
 - GPSFilter.ino is the program itself. It covers the LoRa communication, the gps aquisition, the sensors first calibration and applies the Madgwick fuction to calculate the system attitude. In the future this function can migrate to a library or even to the Kalman Filter library.
 - KFSimulationGPS.ipynb is a Google Colab notebook that covers the Kalman Filter applied in datasets obtained from the embedded system data.
 - PathSimulationGPS.ipynb simulates the car path using trigonometric functions for the position, velocity and acceleration. This is a good kickoff point to start understanding the functioning of the system itself.
